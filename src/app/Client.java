@@ -12,7 +12,7 @@ public class Client {
 
         Pedido pedido = new Pedido();
         pedido.setCogigo(1L);
-        pedido.setDescricao("Sabonete");
+        pedido.setDescricao("Shampoo");
         pedido.setQuantidade(5);
 
         objectOutput.writeObject(pedido);
